@@ -43,7 +43,7 @@ export default class Home extends Component {
               </div>
               {/* <img src="images/banner.fa20c90e.png" className="banner img-fluid" /> */}
               <video autoPlay muted> 
-                <source src="images/home.mp4" type="video/mp4" ></source>
+                <source src="images/home1.mp4" type="video/mp4" ></source>
               </video>
             </div>
             <p className="scrolldown">
