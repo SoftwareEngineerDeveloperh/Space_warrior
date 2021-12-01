@@ -10,37 +10,35 @@ export default class Roadmap extends Component {
           <div className="condition">
             <div className="item">
               <h6>PHASE1</h6>
-              <p>Conceptualize and Design Websites.</p>
-              <p>Create Contract, Launch MILIT on Binance Smart Chain.</p>
-              <p>Audit the Contract.</p>
-              <p>White Paper Creation.</p>
-              <p>Initial Marketing.</p>
+              <p>Website Release.</p>
+              <p>Space Warrior Game 2 level preview.</p>
+              <p>Fair Launch.</p>
+              <p>CoinGecko, CoinMarketcap, fast track.</p>
+              <p>Contract Audit.</p>
             </div>
             <div className="item">
               <h6>PHASE2</h6>
-              <p>Solicit Whitelist.</p>
+              <p>NFT Marketplace.</p>
               <p>Game Beta.</p>
-              <p>Launch Blind Box Sale.</p>
-              <p>Influencer Marketing.</p>
-              <p>Launch Private Sale(TBA).</p>
-              <p>List MILIT on PancakeSwap</p>
+              <p>Marketing through Social Influencers.</p>
+              <p>Regular AMA / Telegram Voice Chats.</p>
+              <p>New Themes for the Space Warrior Game Interface.</p>
+              <p>Full-time Social Media Marketing Firm.</p>
             </div>
             <div className="item">
               <h6>PHASE3</h6>
-              <p>Open Hero Training.</p>
-              <p>Open NFT market.</p>
-              <p>1st Round of Airdrop.</p>
-              <p>Coingecko Coinmarketcap listing.</p>
-              <p>Open Hero Recast.</p>
-              <p>Release Hero Fighting PVE Feature.</p>
+              <p>First big website Reskin.</p>
+              <p>Full Game Release.</p>
+              <p>Influencer Marketing Partnerships.</p>
+              <p>More Games Added.</p>
             </div>
             <div className="item">
               <h6>PHASE4</h6>
-              <p>Release Equipment Feature.</p>
-              <p>Upgrade the Game [characters, equipment, etc].</p>
-              <p>CEX listing.</p>
-              <p>Launch 2nd Airdrop program.</p>
-              <p>Release more Games(Coming Soon).</p>
+              <p>First Major Exchange Listings.</p>
+              <p>Real World Marketing Partnerships.</p>
+              <p>Huge Social Media Campaigns.</p>
+              <p>NYC Billboards.</p>
+              <p>+ Much More to Come.</p>
             </div>
           </div>
         </div>

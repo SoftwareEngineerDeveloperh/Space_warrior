@@ -11,16 +11,18 @@ export default class Home extends Component {
 
               <div className="row">
                 <div className="col-md-1">
-                  <img src="images/logo.a8641761.png" className="img-fluid" />
+                  <a href="#home">
+                    <img src="images/SPACE_WARRIOR_3x-removebg-preview.png" className="img-fluid" />
+                  </a>
                 </div>
                 <div className="col-md-8">
                   <ul id="nav" className="nav">
-                    <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                    <li><a className="smoothscroll" href="#about">About</a></li>
-                    <li><a className="smoothscroll" href="#application">Appication</a></li>
-                    <li><a className="smoothscroll" href="#character">Character</a></li>
-                    <li><a className="smoothscroll" href="#token">Token</a></li>
-                    <li><a className="smoothscroll" href="#roadmap">Roadmap</a></li>
+                    <li className="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#application">Appication</a></li>
+                    <li><a href="#character">Character</a></li>
+                    <li><a href="#token">Token</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
                   </ul>
                 </div>
                 <div className="col-md-3">
@@ -34,15 +36,18 @@ export default class Home extends Component {
 
             <div className="main">
               <div className="side">
-                <img src="images/logo.a8641761.png" />
+                <img src="images/SPACE_WARRIOR_3x-removebg-preview.png" />
                 <a href="https://www.certik.org/projects/militiagames" className="btn">CertiK Audit</a>
                 <a href="https://bscscan.com/token/0xeEa7C025b1EeE9527d631094D45Ff9cE5d830b6f?a=0x000000000000000000000000000000000000dead" className="btn">Burn Address</a>
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0xeea7c025b1eee9527d631094d45ff9ce5d830b6f" className="btn">BUY MILIT</a>
               </div>
-              <img src="images/banner.fa20c90e.png" className="banner img-fluid" />
+              {/* <img src="images/banner.fa20c90e.png" className="banner img-fluid" /> */}
+              <video controls autoPlay> 
+                <source src="images/home.mp4" type="video/mp4" ></source>
+              </video>
             </div>
             <p className="scrolldown">
-              <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+              <a href="#about"><i className="icon-down-circle"></i></a>
             </p>
           </div>
         </section>

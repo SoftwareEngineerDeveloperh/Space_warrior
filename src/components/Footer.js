@@ -5,7 +5,7 @@ export default class Footer extends Component {
       <footer>
         <div className="wrapping">
           <img src="images/floor-bg.8d8383a0.png" alt className="des" />
-          <img src="images/logo.a8641761.png" alt className="logo" />
+          <img src="images/SPACE_WARRIOR_3x-removebg-preview.png" alt className="logo" />
           <div className="text">
             <p>Militia Game Platform, Creating More NFT GamePlay, Opening a New Era</p>
             <p className="copyright">@2021-2022 by MILIT All rights reserved.</p>
@@ -38,7 +38,7 @@ export default class Footer extends Component {
                 <img src="images/inner_twi.png" />
               </a>
             </div>
-            <div className="el-select">
+            {/* <div className="el-select">
               <div className="el-select el-input--suffix">
                 <input types="text" readonly="readonly" autocomplete="off" placeholder="请选择" className="el-input_inner"></input>
                 <span className="el-input__suffix">
@@ -47,9 +47,9 @@ export default class Footer extends Component {
                   </span>
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+          <div id="go-top"><a title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
         </div>
       </footer>
     );
