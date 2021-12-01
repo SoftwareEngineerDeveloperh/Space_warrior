@@ -42,7 +42,7 @@ export default class Home extends Component {
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0xeea7c025b1eee9527d631094d45ff9ce5d830b6f" className="btn">BUY MILIT</a>
               </div>
               {/* <img src="images/banner.fa20c90e.png" className="banner img-fluid" /> */}
-              <video controls autoPlay> 
+              <video autoPlay muted> 
                 <source src="images/home.mp4" type="video/mp4" ></source>
               </video>
             </div>
