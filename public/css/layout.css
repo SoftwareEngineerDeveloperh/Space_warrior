@@ -211,13 +211,13 @@
 }
 
 #home .main .side {
-   width: 317px;
+   width: 535px;
    display: flex;
    flex-direction: column;
 }
 
 #home .main .side img {
-   width: 317px;
+   width: 535px;
    height: 326px;
    margin-bottom: 64px;
 }
@@ -249,6 +249,20 @@
    margin-left: auto;
    
 }
+
+#home .main p {
+   margin-bottom: -20px;
+   color: #1212ed;
+   width: 833px;
+   height: 550px;
+   font-size: 5rem;
+   /* margin-left: 30rem; */
+   padding-left: 20rem;
+   font-family: cursive;
+
+}
+
+
 
 
 
@@ -1132,6 +1146,8 @@ call-to-action .button {
    margin-top: 24px;
    border-radius: 8px;
    overflow: hidden;
+   font-size: 2rem;
+   text-align: end;
 }
 
 #token .condition .left .middle .row {
@@ -1140,7 +1156,7 @@ call-to-action .button {
 }
 
 #token .condition .left .middle .row .label {
-   width: 165px;
+   width: 260px;
    height: 54px;
    line-height: 54px;
    padding: 0 18px;
@@ -1187,12 +1203,17 @@ call-to-action .button {
 }
 
 #token .condition .right {
-   width: 710px;
+   width: 622px;
 }
 
 #token .condition .right img {
    width: 100%;
 }
+
+#token .condition .right label {
+   font-size: 3rem;
+}
+
 
 
 
@@ -1533,7 +1554,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 60px;
+   padding-top: 100px;
    /* margin-bottom: 48px; */
    /* color: #303030; */
    /* font-size: 14px; */
@@ -1551,13 +1572,13 @@ footer .des {
 
 footer .logo {
    float: left;
-   width: 120px;
+   width: 280px;
    margin-right: 55px;
 }
 
 footer .text {
    float: left;
-   width: 363px;
+   width: 373px;
    margin-right: 105px;   
 }
 

@@ -5,10 +5,10 @@ export default class Footer extends Component {
       <footer>
         <div className="wrapping">
           <img src="images/floor-bg.8d8383a0.png" alt className="des" />
-          <img src="images/SPACE_WARRIOR_3x-removebg-preview.png" alt className="logo" />
+          <img src="images/SPACE_WARRIOR@3x_(2).png" alt className="logo" />
           <div className="text">
-            <p>Militia Game Platform, Creating More NFT GamePlay, Opening a New Era</p>
-            <p className="copyright">@2021-2022 by MILIT All rights reserved.</p>
+            <p>Nothing on this website constitutes or should be considered financial advice. This website is provided for informational purposes only. Please be responsible, and we implore you to never take risks that you cannot afford to take.</p>
+            {/* <p className="copyright">@2021-2022 by MILIT All rights reserved.</p> */}
           </div>
           <div className="website">
             <dt>Websites</dt>
